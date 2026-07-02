@@ -1,0 +1,212 @@
+[
+  {
+    "query": "battery life",
+    "modes": {
+      "semantic": [
+        {
+          "text": "how is the battery life ?",
+          "sentiment": "neutral",
+          "topic": 13
+        },
+        {
+          "text": "is the battery life good",
+          "sentiment": "positive",
+          "topic": 13
+        },
+        {
+          "text": "battery health?",
+          "sentiment": "neutral",
+          "topic": 13
+        }
+      ],
+      "lexical": [
+        {
+          "text": "how is the battery life ?",
+          "sentiment": "neutral",
+          "topic": 13
+        },
+        {
+          "text": "here and mahan non per and battery life",
+          "sentiment": "neutral",
+          "topic": 13
+        },
+        {
+          "text": "is the battery life good",
+          "sentiment": "positive",
+          "topic": 13
+        }
+      ],
+      "hybrid": [
+        {
+          "text": "how is the battery life ?",
+          "sentiment": "neutral",
+          "topic": 13
+        },
+        {
+          "text": "is the battery life good",
+          "sentiment": "positive",
+          "topic": 13
+        },
+        {
+          "text": "really battery life is best",
+          "sentiment": "positive",
+          "topic": 13
+        }
+      ],
+      "metadata_negative": [
+        {
+          "text": "for a new phone the battery life sucks on it",
+          "sentiment": "negative"
+        },
+        {
+          "text": "could you how long it takes to make it lose all its battery",
+          "sentiment": "negative"
+        },
+        {
+          "text": "waste battery issues until",
+          "sentiment": "negative"
+        }
+      ]
+    }
+  },
+  {
+    "query": "camera quality",
+    "modes": {
+      "semantic": [
+        {
+          "text": "i want you to test the camera quality.",
+          "sentiment": "positive",
+          "topic": 4
+        },
+        {
+          "text": "camera quality to see if it has improved and any other application updated",
+          "sentiment": "positive",
+          "topic": 4
+        },
+        {
+          "text": "4:36 per camera quality",
+          "sentiment": "neutral",
+          "topic": 4
+        }
+      ],
+      "lexical": [
+        {
+          "text": "4:36 per camera quality",
+          "sentiment": "neutral",
+          "topic": 4
+        },
+        {
+          "text": "varum paranjilla, camera quality koodittund , nan 15 professional accidently medical.camera quality reflectivity kurachittund nice an",
+          "sentiment": "positive",
+          "topic": 4
+        },
+        {
+          "text": "can you show us the camera quality of this phone 16 ?",
+          "sentiment": "neutral",
+          "topic": 4
+        }
+      ],
+      "hybrid": [
+        {
+          "text": "camera",
+          "sentiment": "neutral",
+          "topic": 4
+        },
+        {
+          "text": "the camera",
+          "sentiment": "neutral",
+          "topic": 4
+        },
+        {
+          "text": "4:36 per camera quality",
+          "sentiment": "neutral",
+          "topic": 4
+        }
+      ],
+      "metadata_negative": [
+        {
+          "text": "looks kind of good but camera ugly as",
+          "sentiment": "negative"
+        },
+        {
+          "text": "the camera are so ugly",
+          "sentiment": "negative"
+        },
+        {
+          "text": "the camera is so ugly",
+          "sentiment": "negative"
+        }
+      ]
+    }
+  },
+  {
+    "query": "price too expensive",
+    "modes": {
+      "semantic": [
+        {
+          "text": "higher price",
+          "sentiment": "neutral",
+          "topic": 24
+        },
+        {
+          "text": "it is overpriced for you because you cannot afford one of those and more importantly your not the target market",
+          "sentiment": "positive",
+          "topic": 24
+        },
+        {
+          "text": "looks cheap",
+          "sentiment": "neutral",
+          "topic": 28
+        }
+      ],
+      "lexical": [
+        {
+          "text": "very expensive and price! no way!",
+          "sentiment": "negative",
+          "topic": 24
+        },
+        {
+          "text": "price",
+          "sentiment": "neutral",
+          "topic": 24
+        },
+        {
+          "text": "price",
+          "sentiment": "neutral",
+          "topic": 24
+        }
+      ],
+      "hybrid": [
+        {
+          "text": "price",
+          "sentiment": "neutral",
+          "topic": 24
+        },
+        {
+          "text": "very expensive and price! no way!",
+          "sentiment": "negative",
+          "topic": 24
+        },
+        {
+          "text": "@iamgermaican at that price, they have to",
+          "sentiment": "neutral",
+          "topic": 9
+        }
+      ],
+      "metadata_negative": [
+        {
+          "text": "I don't know the price really",
+          "sentiment": "negative"
+        },
+        {
+          "text": "very expensive and price! no way!",
+          "sentiment": "negative"
+        },
+        {
+          "text": "what the fuck these are so overprices go andros",
+          "sentiment": "negative"
+        }
+      ]
+    }
+  }
+]

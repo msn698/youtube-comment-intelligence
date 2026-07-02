@@ -1,0 +1,135 @@
+{
+  "ollama_available": true,
+  "routing": [
+    {
+      "question": "summarize what people say about the screen",
+      "expected": "summarize",
+      "got": "summarize",
+      "ok": true
+    },
+    {
+      "question": "how positive are the comments overall?",
+      "expected": "sentiment",
+      "got": "sentiment",
+      "ok": true
+    },
+    {
+      "question": "did anyone mention overheating?",
+      "expected": "qa",
+      "got": "qa",
+      "ok": true
+    },
+    {
+      "question": "what do people think about the price?",
+      "expected": "qa",
+      "got": "sentiment",
+      "ok": false
+    }
+  ],
+  "retrieval": [
+    {
+      "query": "battery life",
+      "mode": "semantic",
+      "latency_s": 12.9781,
+      "n_hits": 6
+    },
+    {
+      "query": "battery life",
+      "mode": "lexical",
+      "latency_s": 1.5225,
+      "n_hits": 6
+    },
+    {
+      "query": "battery life",
+      "mode": "hybrid",
+      "latency_s": 0.0235,
+      "n_hits": 6
+    },
+    {
+      "query": "battery life",
+      "mode": "metadata",
+      "latency_s": 0.038,
+      "n_hits": 6
+    },
+    {
+      "query": "camera",
+      "mode": "semantic",
+      "latency_s": 0.017,
+      "n_hits": 6
+    },
+    {
+      "query": "camera",
+      "mode": "lexical",
+      "latency_s": 0.003,
+      "n_hits": 6
+    },
+    {
+      "query": "camera",
+      "mode": "hybrid",
+      "latency_s": 0.024,
+      "n_hits": 6
+    },
+    {
+      "query": "camera",
+      "mode": "metadata",
+      "latency_s": 0.0371,
+      "n_hits": 6
+    },
+    {
+      "query": "price",
+      "mode": "semantic",
+      "latency_s": 0.013,
+      "n_hits": 6
+    },
+    {
+      "query": "price",
+      "mode": "lexical",
+      "latency_s": 0.003,
+      "n_hits": 6
+    },
+    {
+      "query": "price",
+      "mode": "hybrid",
+      "latency_s": 0.019,
+      "n_hits": 6
+    },
+    {
+      "query": "price",
+      "mode": "metadata",
+      "latency_s": 0.036,
+      "n_hits": 6
+    }
+  ],
+  "agent": {
+    "n_questions": 3,
+    "retrieval_mode": "hybrid",
+    "avg_latency_s": 7.024,
+    "avg_sources": 4.0,
+    "questions": [
+      {
+        "question": "what do people think about the battery?",
+        "intent": "sentiment",
+        "retrieval": null,
+        "latency_s": 6.282,
+        "n_sources": 0,
+        "answer_preview": "sentiment over 18,771 comments:\n  neutral: 10,935 (58.3%)\n  positive: 5,764 (30.7%)\n  negative: 2,072 (11.0%)"
+      },
+      {
+        "question": "summarize opinions on the camera",
+        "intent": "summarize",
+        "retrieval": "hybrid",
+        "latency_s": 8.758,
+        "n_sources": 12,
+        "answer_preview": "The main themes present in these YouTube comments are related to cameras and their presence or absence. The mood of the comments is lighthearted and playful, with a touch of curiosity and surprise. Re"
+      },
+      {
+        "question": "how negative are the comments?",
+        "intent": "sentiment",
+        "retrieval": null,
+        "latency_s": 6.033,
+        "n_sources": 0,
+        "answer_preview": "sentiment over 18,771 comments:\n  neutral: 10,935 (58.3%)\n  positive: 5,764 (30.7%)\n  negative: 2,072 (11.0%)"
+      }
+    ]
+  }
+}

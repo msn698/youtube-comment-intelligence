@@ -1,0 +1,34 @@
+# core
+pandas
+numpy
+matplotlib
+
+# scraping (notebook 1)
+google-api-python-client
+python-dotenv
+
+# nlp
+spacy
+nltk
+textblob
+scikit-learn
+
+# topic modeling
+bertopic
+sentence-transformers
+
+# rag + llm (local)
+chromadb
+langchain-core
+langchain-ollama
+
+# transformers (optional - notebook 4 transformer sentiment cell)
+transformers
+torch
+
+# agent / dspy / monitoring / dashboard
+dspy
+mlflow
+streamlit
+
+# after installing spacy:  python -m spacy download en_core_web_sm

@@ -1,0 +1,65 @@
+{
+  "answer": "People say it's the same every year.",
+  "sources": [
+    [
+      "camera",
+      {
+        "video_id": "IG7FrgImhDs",
+        "sentiment": "neutral",
+        "keywords": "camera",
+        "topic": 4,
+        "likes": 0
+      }
+    ],
+    [
+      "the camera",
+      {
+        "likes": 1,
+        "video_id": "IG7FrgImhDs",
+        "topic": 4,
+        "sentiment": "neutral",
+        "keywords": "camera"
+      }
+    ],
+    [
+      "what is up with those camera",
+      {
+        "video_id": "IG7FrgImhDs",
+        "keywords": "camera",
+        "sentiment": "neutral",
+        "likes": 0,
+        "topic": 4
+      }
+    ],
+    [
+      "@mrnibiryt how is the camera ?",
+      {
+        "topic": 4,
+        "keywords": "camera",
+        "video_id": "4ZfoJPDXVHs",
+        "likes": 0,
+        "sentiment": "neutral"
+      }
+    ],
+    [
+      "yeah \"people say\" but people keep buying them",
+      {
+        "video_id": "IG7FrgImhDs",
+        "sentiment": "neutral",
+        "topic": -1,
+        "likes": 0,
+        "keywords": "people, people buy, yeah, buy"
+      }
+    ],
+    [
+      "the people who. say its the same every year, tell me a difference between the s and the s",
+      {
+        "video_id": "IG7FrgImhDs",
+        "sentiment": "neutral",
+        "topic": -1,
+        "likes": 2,
+        "keywords": "tell difference, tell, difference, people, year"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "topic_domain": "iPhone 16 review (YouTube comments)",
+  "dataset": {
+    "raw_comments": 19270,
+    "after_cleaning": 18771,
+    "unique_videos": 28,
+    "top_level_comments": 15988,
+    "replies": 3282,
+    "avg_likes": 5.68,
+    "median_likes": 0
+  },
+  "preprocessing": {
+    "dropped_on_clean": 499,
+    "has_clean_text": 18771,
+    "has_lemmas": 18111
+  },
+  "sentiment": {
+    "counts": {
+      "neutral": 10935,
+      "positive": 5764,
+      "negative": 2072
+    },
+    "pct": {
+      "neutral": 58.3,
+      "positive": 30.7,
+      "negative": 11.0
+    },
+    "mean_vader": 0.1032,
+    "mean_textblob": 0.0594
+  },
+  "topics": {
+    "n_topics_bertopic": 52,
+    "outlier_topic_minus1": 6446,
+    "top_topics_by_count": {
+      "0": 1010,
+      "1": 986,
+      "2": 781,
+      "3": 677,
+      "4": 665,
+      "5": 445,
+      "6": 436,
+      "7": 385,
+      "8": 370,
+      "9": 356
+    }
+  },
+  "ner_keywords": {
+    "comments_with_entities": 4869,
+    "top_entities": [
+      [
+        "max",
+        310
+      ],
+      [
+        "Sick Iss",
+        239
+      ],
+      [
+        "apple",
+        116
+      ],
+      [
+        "anna",
+        105
+      ],
+      [
+        "Artificial Intelligence",
+        84
+      ],
+      [
+        "samson",
+        76
+      ],
+      [
+        "motorola",
+        49
+      ],
+      [
+        "havana",
+        29
+      ],
+      [
+        "india",
+        28
+      ],
+      [
+        "lava",
+        25
+      ],
+      [
+        "samson s",
+        23
+      ],
+      [
+        "iphone16",
+        21
+      ],
+      [
+        "n\u2019t",
+        21
+      ],
+      [
+        "gb",
+        20
+      ],
+      [
+        "120hz",
+        19
+      ]
+    ],
+    "sample_keywords": [
+      "18, review, apple",
+      "mean phone, phone come, red, mean, charge",
+      "year, software, support, budget",
+      "buy phone, buy, phone",
+      "near, pick, feel like, find, parent"
+    ]
+  },
+  "topics_per_sentiment": {
+    "positive": {
+      "n_comments": 5764,
+      "n_distinct_topics": 52
+    },
+    "negative": {
+      "n_comments": 2072,
+      "n_distinct_topics": 52
+    },
+    "neutral": {
+      "n_comments": 10935,
+      "n_distinct_topics": 52
+    }
+  },
+  "sample_comments": [
+    {
+      "sentiment": "positive",
+      "text": "5years of software support when sansung budgets have six years?",
+      "clean_text": "years of software support when shantung budget have six years?",
+      "keywords": "year, software, support, budget"
+    },
+    {
+      "sentiment": "negative",
+      "text": "I never got my iPhone 16 in Oct 2025 my a15 broke October 8th...",
+      "clean_text": "i never got my phone 16 in oct 2025 my and broke october th...",
+      "keywords": "october, break, 2025, get phone, get"
+    },
+    {
+      "sentiment": "neutral",
+      "text": "Our Apple iOS 18.2 review is up now: https://youtu.be/tKvzvEmQkjM",
+      "clean_text": "our apple is 18.2 review is up now:",
+      "keywords": "18, review, apple"
+    }
+  ]
+}
